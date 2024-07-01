@@ -1,0 +1,88 @@
+.cv-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: "Arial", sans-serif;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  header {
+    border-bottom: 2px solid #0073b1;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+
+    .header-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      h1 {
+        font-size: 2.2em;
+        margin: 0;
+        color: #333333;
+      }
+
+      p {
+        font-size: 1.2em;
+        color: #333333;
+        margin: 0;
+      }
+
+      .contact-info {
+        text-align: right;
+
+        p {
+          margin: 5px 0;
+        }
+
+        a {
+          color: #0073b1;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  section {
+    margin-bottom: 20px;
+
+    h2 {
+      font-size: 1.6em;
+      color: #333333;
+      border-bottom: 1px solid #e0e0e0;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+
+      li {
+        background: #f4f4f4;
+        margin: 5px 0;
+        padding: 10px;
+        border-left: 4px solid #0073b1;
+      }
+    }
+
+    .job,
+    .education {
+      margin-bottom: 15px;
+
+      h3 {
+        font-size: 1.4em;
+        color: #0073b1;
+        margin: 0;
+      }
+
+      p {
+        margin: 5px 0;
+        font-size: 1em;
+        color: #666666;
+      }
+    }
+  }
+}
